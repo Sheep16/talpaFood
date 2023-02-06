@@ -1,4 +1,4 @@
-async function createPage(JSONurl){
+async function createPage(JSONurl,itemNO){
     var getJSON = function(url, callback) {
         var xhr = new XMLHttpRequest();
         xhr.open('GET', url, true);
@@ -18,7 +18,7 @@ async function createPage(JSONurl){
       if (err !== null) {
         alert('Something went wrong: ' + err);
       } else {
-        addThing("#name","div",data[0].name)
+        addThing("#name","div",data[itemNO].name)
         }
     
         
