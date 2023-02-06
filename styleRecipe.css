@@ -5,8 +5,8 @@
     --pdark: #8aacc8;
     --ptext:  #000000;
     --secondary:#E6B89C ;
-    --slight:#62727b ;
-    --sdark:#102027 ;
+    --slight:#FFF3EA ;
+    --sdark:#A1846D ;
     --stext: #ffffff;
     --tertiary: #b0daf1;
 }
@@ -42,8 +42,10 @@
   .ingredients{
     background-color: var(--secondary);
     padding: 1em;
+    padding-top: 0.5em;
     margin: 1em;
     border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px var(--sdark);
   }
   ul{
     margin-left: 1em;
@@ -51,6 +53,11 @@
   }
   h4{
     margin-bottom: 0.5em;
+  }
+  img{
+    max-width: 90%;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px 2px var(--pdark);
   }
 
   @media only screen and (min-width: 768px) {
