@@ -18,7 +18,7 @@ async function createPage(JSONurl){
       if (err !== null) {
         alert('Something went wrong: ' + err);
       } else {
-        addThing("#name","div",data.name)
+        addThing("#name","div",data.id)
         }
     
         
