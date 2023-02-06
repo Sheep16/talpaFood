@@ -1,0 +1,111 @@
+
+:root{
+    --primary: #bbdefb;
+    --plight: #eeffff;
+    --pdark: #8aacc8;
+    --ptext:  #000000;
+    --secondary:#E6B89C ;
+    --slight:#62727b ;
+    --sdark:#102027 ;
+    --stext: #ffffff;
+    --tertiary: #b0daf1;
+}
+  *{
+    padding: 0;
+    margin:0;
+    font-family: Arial, sans-serif;
+  }
+  body{
+    background-color: var(--primary);
+  }
+
+  main{
+    width: 90vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      box-shadow: 2px 2px 10px;
+      height: 150vh;
+      padding-top: 3em;
+  }
+  h1{
+    text-align: center;
+    padding: 0.5em;
+    color: var(--ptext)
+  }
+  p{
+    text-align: left;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-bottom: 1em;
+  }
+  .ingredients{
+    background-color: var(--secondary);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 10px;
+  }
+  ul{
+    margin-left: 1em;
+    text-align: left;
+  }
+  h4{
+    margin-bottom: 0.5em;
+  }
+
+  @media only screen and (min-width: 768px) {
+    header.desktopNav{
+      display:flex;
+      width: 100vw;
+      background-color: var(--secondary);
+      overflow:hidden;
+      position: fixed;
+          box-shadow: 5px 0px 2px;
+    }
+  }
+
+  @media only screen and (min-width: 1281px) {
+    main{
+      width: 50vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      height: 150vh;
+      padding-top: 5em;
+      margin-bottom:5em;
+      box-shadow: 5px 5px 10px;
+  }
+  p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-bottom: 1em;
+  }
+  .grid{
+        display: grid;
+        padding: 5vw;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        
+  }
+  }
+
+
+  @media only screen and (min-width: 768px) and (max-width: 1281px) {
+    main{
+      width: 70vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      height: 150vh;
+      padding-top: 5em;
+      margin-bottom:5em;
+      box-shadow: 5px 5px 10px;
+  }
+  p{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+  }
+  }
