@@ -1,0 +1,137 @@
+:root{
+    --primary: #bbdefb;
+    --plight: #eeffff;
+    --pdark: #8aacc8;
+    --ptext:  #000000;
+    --secondary:#37474f ;
+    --slight:#62727b ;
+    --sdark:#102027 ;
+    --stext: #ffffff;
+  }
+  *{
+    padding: 0;
+    margin:0;
+    font-family: Arial, sans-serif;
+  }
+  body{
+    background-color: var(--primary);
+  }
+  
+  a{
+    text-decoration: none;
+  }
+  
+  header.mobileNav{
+    width: 100vw;
+    background-color: var(--secondary);
+    text-align: right;
+        position: fixed;
+  }
+  header div a.icon{
+    display:inline;
+    padding-right: 2vw;
+    text-align: right;
+    font-size: 2rem;
+    color: var(--stext);
+  }
+  div.navBar a{
+    display: none;
+  }
+  div.navBarResponsive a{
+    display: block;
+      color: var(--stext);
+  }
+  .link{
+    text-align: center;
+      font-size:2rem;
+      padding-top: 2vh;
+      padding-bottom: 2vh;
+  }
+  main{
+    width: 90vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      box-shadow: 2px 2px 10px;
+      height: 150vh;
+      padding-top: 3em;
+  }
+  h1{
+    text-align: center;
+    padding: 0.5em;
+    color: var(--ptext)
+  }
+  p{
+    text-align: left;
+      margin-left: 1em;
+      margin-right: 1em;
+      padding-bottom: 1em;
+  }
+  .current{
+    background-color: var(--sdark)
+  }
+  #contact{
+    text-align: right;
+    margin-left: auto;
+    padding-right: 2em;
+  }
+  
+  header.desktopNav{
+    display: none;
+  }
+  @media only screen and (min-width: 768px) {
+    header.mobileNav{
+      display: none;
+    }
+    header.desktopNav{
+      display:flex;
+      width: 100vw;
+      background-color: var(--secondary);
+      overflow:hidden;
+      position: fixed;
+          box-shadow: 5px 0px 2px;
+    }
+    header.desktopNav a{
+      color: var(--stext);
+      padding:1em;
+    }
+    header.desktopNav a:hover{
+      background-color: var(--sdark);
+      font-weight:  bold;
+    }
+  }
+  @media only screen and (min-width: 1281px) {
+    main{
+      width: 50vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      height: 150vh;
+      padding-top: 5em;
+      margin-bottom:5em;
+      box-shadow: 5px 5px 10px;
+  }
+  p{
+    margin-left: 2vw;
+    margin-right: 2vw;
+    padding-bottom: 1em;
+  }
+  }
+  @media only screen and (min-width: 768px) and (max-width: 1281px) {
+    main{
+      width: 70vw;
+      background-color: var(--plight);
+      text-align: center;
+      margin: auto;
+      height: 150vh;
+      padding-top: 5em;
+      margin-bottom:5em;
+      box-shadow: 5px 5px 10px;
+  }
+  p{
+    margin-left: 1em;
+    margin-right: 1em;
+    padding-bottom: 1em;
+  }
+  }
+  
