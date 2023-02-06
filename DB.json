@@ -5,12 +5,12 @@
       "lastName": "Doe"
     },
     {
-      "id": "2",
+      "name": "2",
       "firstName": "Mary",
       "lastName": "Peterson"
     },
     {
-      "id": "3",
+      "name": "3",
       "firstName": "George",
       "lastName": "Hansen"
     }
