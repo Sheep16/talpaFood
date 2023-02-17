@@ -19,6 +19,10 @@
 }
 a{
   text-decoration: none;
+  color: #000000;
+}
+a:hover{
+  color: var(--tdark);
 }
 body{
   background-color: var(--primary);
