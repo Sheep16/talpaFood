@@ -82,7 +82,11 @@ ul{
   margin-left: 1em;
   text-align: left;
 }
-
+.Vegetarian{
+  color: green;
+  display: inline;
+  font-weight: bold;
+}
 
 @media only screen and (min-width: 1281px) {
   main{
