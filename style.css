@@ -317,4 +317,73 @@ ul{
   width: 100%;
   column-width: 50vw;
 }
+.ribbon {
+  width: auto;
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  right: -15px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #76323F;
+  color: white;
+}
+
+.ribbon3 {
+  width: auto;
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #79855e;
+  color: white;
+}
+
+.ribbon2 {
+  width: auto;
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #004E4F;
+  color: white;
+}
+
+.ribbon4 {
+  width: auto;
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #004E4F;
+  color: white;
+}
+
+.ribbon5 {
+  width: auto;
+  font-size: 14px;
+  padding: 5px;
+  position: absolute;
+  right: -20px;
+  top: -12px;
+  text-align: center;
+  border-radius: 25px;
+  transform: rotate(20deg);
+  background-color: #76323F;
+  color: white;
+}
 }
