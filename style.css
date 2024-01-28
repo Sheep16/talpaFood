@@ -5,7 +5,7 @@
   --pdark: #8aacc8;
   --ptext:  #000000;
   --secondary:#D7CEC7 ;
-  --slight:#FFF3EA ;
+  --slight:#ceb8a8 ;
   --sdark:#A1846D ;
   --stext: #ffffff;
   --tertiary: #87ba97;
@@ -23,12 +23,11 @@ a{
   font-family: "Playfair Display", serif;
   font-size: 17px;
 }
-a:hover{
-  color: var(--tdark);
-}
+
 body{
   background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/8bdec6bc-0ef4-4d9c-bf67-5fdaaea0b446/d3jkpsh-0a5bc4aa-5009-446c-883a-6bbabb4918ad.jpg/v1/fill/w_894,h_894,q_70,strp/tileable_wood_texture_by_ftourini_d3jkpsh-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9OTAwIiwicGF0aCI6IlwvZlwvOGJkZWM2YmMtMGVmNC00ZDljLWJmNjctNWZkYWFlYTBiNDQ2XC9kM2prcHNoLTBhNWJjNGFhLTUwMDktNDQ2Yy04ODNhLTZiYmFiYjQ5MThhZC5qcGciLCJ3aWR0aCI6Ijw9OTAwIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmltYWdlLm9wZXJhdGlvbnMiXX0.jLT74v6dHBZwOSDaKwGbxA90i7ofh-M84T-vVkbgvLM);
-  margin: 40px
+  margin: 4vw;
+  width: 90vw;
 }
 
 .wrapper {
@@ -42,11 +41,11 @@ body{
 
 
 main{
-  width: 90vw;
+  width: 88vw;
     background-color: var(--plight);
     text-align: center;
-    margin: auto;
-    padding: 1em;
+    margin: 0vw;
+    padding: 1vw;
 }
 
 h1{
@@ -75,11 +74,12 @@ h3{
   margin-bottom: 5px;
 }
 ul{
-  margin: 0.5em;
+  margin: 1vw;
   padding: 0.5em;
   background-color: var(--secondary);
   width: 90vw;
   border-radius: 10px;
+  text-align: left;
 }
 
 li{
@@ -95,6 +95,13 @@ li{
   margin: auto;
   width: 100%;
   border-color: var(--primary);
+  text-decoration: none; 
+  font-family: "Playfair Display", serif;
+  font-size: 17px;
+}
+
+.btn:hover{
+  background-color: var(--sdark);
 }
 
 .ribbon {
@@ -175,11 +182,6 @@ p{
 }
 
 
-
-ul{
-  margin-left: 1em;
-  text-align: left;
-}
 .Vegetarian{
   color: green;
   display: inline;
@@ -262,7 +264,7 @@ ul{
   font-size: 14px;
   padding: 5px;
   position: absolute;
-  right: -20px;
+  right: 20px;
   top: -12px;
   text-align: center;
   border-radius: 25px;
@@ -276,7 +278,7 @@ ul{
   font-size: 14px;
   padding: 5px;
   position: absolute;
-  right: -20px;
+  right: 23px;
   top: -12px;
   text-align: center;
   border-radius: 25px;
@@ -364,7 +366,7 @@ ul{
   font-size: 14px;
   padding: 5px;
   position: absolute;
-  right: -20px;
+  right: 20px;
   top: -12px;
   text-align: center;
   border-radius: 25px;
@@ -378,7 +380,7 @@ ul{
   font-size: 14px;
   padding: 5px;
   position: absolute;
-  right: -20px;
+  right: 23px;
   top: -12px;
   text-align: center;
   border-radius: 25px;
